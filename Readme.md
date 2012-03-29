@@ -4,6 +4,10 @@
 
 ## install
 
+```
+$ nmp install node-im-kayac
+```
+
 ## exsample
 
 ```coffee
