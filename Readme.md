@@ -8,7 +8,7 @@
 $ nmp install node-im-kayac
 ```
 
-## exsample
+## example
 
 ```coffee
 imkayac = require 'node-im-kayac'
