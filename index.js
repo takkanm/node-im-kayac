@@ -1,1 +1,1 @@
-module.exports = exports = require('./lib/im_kayac');
+module.exports = exports = require('./lib/node-im-kayac');

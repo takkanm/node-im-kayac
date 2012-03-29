@@ -1,6 +1,6 @@
 {
   "author": "takkanm (http://github.com/takkanm)",
-  "name": "im_kayac",
+  "name": "node-im-kayac",
   "description": "wrapper for im.kayac.com",
   "version": "0.0.1",
   "repository": {
