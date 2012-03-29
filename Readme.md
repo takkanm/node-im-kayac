@@ -22,7 +22,7 @@ if you use password
 ```coffee
 imkayac = require 'node-im-kayac'
 
-im = new imkayac 'takkanm', password
+im = new imkayac 'takkanm', {'password': password}
 im.send 'hello'
 ```
 
