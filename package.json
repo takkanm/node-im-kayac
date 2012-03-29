@@ -1,0 +1,15 @@
+{
+  "author": "takkanm (http://github.com/takkanm)",
+  "name": "im_kayac",
+  "description": "wrapper for im.kayac.com",
+  "version": "0.0.0",
+  "repository": {
+    "url": ""
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
