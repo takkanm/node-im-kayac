@@ -33,5 +33,4 @@ im.send 'use handler', {'handler', 'mailto:mail@exsample.com'}
 
 ## TODO
 
-- secret authentication
 - proxy
