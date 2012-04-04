@@ -1,5 +1,6 @@
 querystring = require 'querystring'
 http = require 'http'
+crypto = require 'crypto'
 
 class ImKayac
   constructor: (username, @opts = {}) ->
@@ -10,6 +11,9 @@ class ImKayac
 
     if @opts['password'] != undefined
       post_data_hash['password'] = @opts['password']
+
+    if @opts['secret'] != undefined
+      post_data_hash['sig'] = crypto.createHash('sha1').update(message + @opts['secret']).digest('hex');
 
     if opts['handler'] != undefined
       post_data_hash['handler'] = opts['handler']

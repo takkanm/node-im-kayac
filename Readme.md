@@ -22,7 +22,11 @@ if you use password
 ```coffee
 imkayac = require 'node-im-kayac'
 
+# if use password
 im = new imkayac 'takkanm', {'password': password}
+# if use secret key
+im = new imkayac 'takkanm', {'secret': secret_key}
+
 im.send 'hello'
 im.send 'use handler', {'handler', 'mailto:mail@exsample.com'}
 ```
