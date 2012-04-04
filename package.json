@@ -2,7 +2,7 @@
   "author": "takkanm (http://github.com/takkanm)",
   "name": "node-im-kayac",
   "description": "wrapper for im.kayac.com",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
   	"type": "git",
     "url": "https://github.com/takkanm/node-im-kayac"
