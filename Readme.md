@@ -24,10 +24,10 @@ imkayac = require 'node-im-kayac'
 
 im = new imkayac 'takkanm', {'password': password}
 im.send 'hello'
+im.send 'use handler', {'handler', 'mailto:mail@exsample.com'}
 ```
 
 ## TODO
 
-- handler
 - secret authentication
 - proxy

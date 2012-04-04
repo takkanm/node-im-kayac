@@ -11,6 +11,9 @@ class ImKayac
     if @opts['password'] != undefined
       post_data_hash['password'] = @opts['password']
 
+    if opts['handler'] != undefined
+      post_data_hash['handler'] = opts['handler']
+
     post_data = querystring.stringify post_data_hash
 
     post_options = {
